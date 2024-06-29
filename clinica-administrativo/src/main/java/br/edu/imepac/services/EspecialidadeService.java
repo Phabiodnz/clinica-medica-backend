@@ -26,7 +26,7 @@ public class EspecialidadeService {
         return especialidades.stream().map(especialidade -> {
             EspecialidadeDto especialidadeDto = new EspecialidadeDto();
             especialidadeDto.setId(especialidade.getId());
-            especialidadeDto.setNome(especialidade.getDescricao());
+            especialidadeDto.setDescricao(especialidade.getDescricao());
             return especialidadeDto;
         }).collect(Collectors.toList());
     }
