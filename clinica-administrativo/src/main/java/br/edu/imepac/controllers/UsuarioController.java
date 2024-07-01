@@ -3,7 +3,6 @@ package br.edu.imepac.controllers;
 import br.edu.imepac.dtos.UsuarioCreateRequest;
 import br.edu.imepac.dtos.UsuarioDto;
 import br.edu.imepac.services.UsuarioService;
-import br.edu.imepac.models.UsuarioModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
